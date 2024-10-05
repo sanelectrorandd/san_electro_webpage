@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background: #2d3436;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about {
+    background-color: #dfe6e9;
+}
+
+#services, #projects {
+    background-color: #b2bec3;
+}
+
+.service, .project {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d3436;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    header {
+        text-align: left;
+        padding: 40px;
+    }
+
+    .section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
